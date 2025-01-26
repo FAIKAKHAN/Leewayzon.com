@@ -29,28 +29,22 @@
             <li class="service"><a href="index.html#services">Services</a><i class="fa-solid fa-chevron-down" id="dropdown"></i>
               <ul class="drop-menu">
                 <li><a href="rpo.html">RPO</a></li>
-                <!-- <li><a href="payroll.html">Pay-roll Services</a></li> -->
+            
                 <li><a href="contract-staffing.html">Contract staffing</a></li>
                 <li><a href="hr-outsourcing.html">HR outsourcing</a></li>
                 <li><a href="direct-placement.html">Direct Placement</a></li>
                 <li><a href="corporate-training.html">Corporate Training</a></li>
               </ul>
             </li>
-            <!-- <li><a href="">Contact us</a></li> -->
+
             <i class="fa-solid fa-bars" onclick="sidebar()" id="sidebar"></i>
           </ul>
         </div>
-        <!-- <div class="button">
-          <button onclick="openmodal()">Contact us
-            <i class="fa-solid fa-arrow-up" style=" transform: rotate(45deg); margin-left: 0.6rem; font-size: 12.8px;"></i>
-              </button>
-        </div> -->
-
+      
         <div class="contact-button-container">
           <button class="contact-button" onclick="openModal()">Contact Us</button>
       </div>
   
-      <!-- Modal -->
       <div id="contactModal" class="modal">
           <div class="modal-content">
               <h2>Contact Us</h2>
@@ -72,9 +66,6 @@
           <li><a href="#about">About us</a></li>
           <li class="side-service"><a href="#">Services</a></li>
           <li><a href="#training">Training</a></li>
-          <!-- <div class="button">
-            <button onclick="openmodal()">Contact us<i class="fa-solid fa-arrow-up" style=" transform: rotate(45deg); margin-left: 0.6rem; font-size: 12.8px;"></i></button>
-          </div> -->
           <div class="contact-button-container">
             <button class="contact-button" onclick="openModal()">Contact Us</button>
         </div>
@@ -109,62 +100,36 @@
                 </div>
             </div>
   </div>
-  <!-- <div>
-    <img src="home2.png">
+  <div class="home1img"> 
+    <!-- class="home1img" -->
+    <img src="home2.png" class="hide">
   </div>
 </div> 
-<div class="about-us" class="home" id="about"  class="grid-container1">
-    <div class="content">
-        <img src="about.png" class="img">
-      </div>
-    <div>
-      <h3 style="font-size:50px;">Who We Are?</h3>
-      <p class="p1">Welcome to Leewayzon Consultancy, where innovation meets expertise in the dynamic world of technology
-        solutions. With a passion for pushing boundaries and a commitment to excellence, we are dedicated to
-        helping businesses thrive in the digital age.</p>
-      <div class="container">
-        <div>
-          <span>Expertise:</span> Our seasoned professionals bring industry experience and technical
-          know-how to deliver top-notch solutions.
-        </div>
-        <div>
-          <span>Innovation:</span> We thrive on creativity and continuously explore cutting-edge technologies for
-          innovative solutions.
-        </div>
-      </div>
-    </div>
-  </div> -->
 
-  <div>
-    <img src="home2.png">
-  </div>
-</div> 
-<div class="about-us">
-    <div class="grid-container1" class="content">
-        <img src="about.png">
-      <!-- </div> -->
-    <div class="grid-container">
+  <div class="grid-container1">
+    <div  class="home2img">
+      <img src="about.png" id="home2img">
+    </div>
+    <div>
       <h3 style="font-size:50px;">Who We Are?</h3>
       <p>Welcome to Leewayzon Consultancy, where innovation meets expertise in the dynamic world of technology
         solutions. With a passion for pushing boundaries and a commitment to excellence, we are dedicated to
         helping businesses thrive in the digital age.</p>
-      <div class="container">
-        <div>
-          <span>Expertise:</span> Our seasoned professionals bring industry experience and technical
-          know-how to deliver top-notch solutions.
-        </div>
-        <div>
-          <span>Innovation:</span> We thrive on creativity and continuously explore cutting-edge technologies for
-          innovative solutions.
-        </div>
-      </div>
-    </div>
+<div class="grid">
+  <div style="background-color:rgb(255, 255, 255);padding-left:20px; padding-top:10px; padding-bottom: 10px; border-radius:10px;">
+    <span>Expertise:</span> Our seasoned professionals bring industry experience and technical
+    know-how to deliver top-notch solutions.
   </div>
-
-    <!-- Companies -->
-     <div class="sec-1" class="home">   
+  <div style="background-color:rgb(255, 255, 255); padding-left:20px; padding-top:10px; padding-bottom: 10px; border-radius:10px;">
+    <span>Innovation:</span> We thrive on creativity and continuously explore cutting-edge technologies for
+    innovative solutions.
+  </div>
+</div>
+  </div>
+</div>
+     <div class="sec-1" class="home" >   
     <div class="companies">
-      <div class="img" id="img1">
+      <div class="img" id="img1" >
         <img src="c1.webp" alt="">
       </div>
       <div class="img">
@@ -205,7 +170,7 @@
     <section id="services" class="services" class="sec-2" class="home">
       <div class="container" data-aos="fade-up">
         <header class="section-header">
-          <h2 style="font-size:50px;">Services</h2>
+          <h1 style="font-weight: var(--h2-weight);">Services</h1>
           <p>
             Embark on a journey of IT mastery with bespoke training solutions crafted to match your ambitions and
             aspirations
@@ -269,13 +234,13 @@
       <div class="training" id="training">
         <div class="head">
           <div class="header">
-            <h2 style="padding-left: 20px;">Empower IT: <br> Your Training Hub</h2>
-            <p style="padding-left: 20px;">Embark on a journey of IT mastery with bespoke training solutions crafted to match your ambitions
+            <h2 style="padding-left:90px;"  class="h2">Empower IT: <br> Your Training Hub</h2>
+            <p style="padding-left: 90px;">Embark on a journey of IT mastery with bespoke training solutions crafted to match your ambitions
               and
               aspirations.</p>
           </div>
-          <div class="img">
-            <img src="leewayzon.svg">
+          <div>
+            <img src="leewayzon.svg" style="padding-right:90px;" class="leway">
           </div>
         </div>
         <div class="container">
@@ -297,7 +262,7 @@
           <div class="box">
             <h6>03</h6>
             <h4>Full Stack Developer</h4>
-            <p>A full-stack developer is a developer or engineer who can build both the front end and the back end of a
+            <p >A full-stack developer is a developer or engineer who can build both the front end and the back end of a
               website. The front end (the parts of a website a user sees and interacts with) and the back end (the
               behind-the-scenes data storage and processing) require different skill sets.</p>
           </div>
@@ -340,83 +305,18 @@
         </div>
       </div>
 
-<!-- <div>
-  <div class="grid-container2">
-    <div class="faq">
-      <h1>Frequently<br>asked questions</h1>
-      <img src="https://leewayzon.com/assets/home/faq.svg">
-    </div>
-    <div class="accordion">
-      <div class="accordion-item">
-        <div class="accordion-header">
-          <button class="accordion-button"> What is RPO and how does it benefit my company?</button>
-        </div>
-        <div class="accordion-content">
-          <p>  RPO (Recruitment Process Outsourcing) streamlines hiring processes, ensuring quality hires and reducing
-            management challenges for your company.</p>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <div class="accordion-header">
-          <button class="accordion-button">What type of payroll services does Leewayzon offer?</button>
-        </div>
-        <div class="accordion-content">
-          <p> Leewayzon offers various payroll services including in-house, permanent, contract, third-party, and
-            global payroll management.</p>
-        </div>
-      </div>
-        <div class="accordion-item">
-        <div class="accordion-header">
-          <button class="accordion-button"> What is contract staffing and how does it differ from permanent hiring?
-          </button>
-        </div>
-        <div class="accordion-content">
-          <p> Contract staffing involves employing workers on a short-term basis, whereas permanent hiring recruits
-            individuals for long-term roles within a company.</p>
-        </div>
-      </div>
-        <div class="accordion-item">
-        <div class="accordion-header">
-          <button class="accordion-button"> What HR functions can Leewayzon outsource for my company?</button>
-        </div>
-        <div class="accordion-content">
-          <p> Leewayzon can outsource various HR function including training and development, communication, employee
-            engagement, compliance, manpower planning, and organization development.</p>
-        </div>
-      </div>
-        <div class="accordion-item">
-        <div class="accordion-header">
-          <button class="accordion-button"> What is direct placement and how does it benefit my company?</button>
-        </div>
-        <div class="accordion-content">
-          <p>Direct placement is a streamlined approach connecting employers with top-tier candidates for permanent
-            positions, ensuring a perfect match for both parties.</p>
-        </div>
-      </div>
-        <div class="accordion-item">
-        <div class="accordion-header">
-          <button class="accordion-button">  What type of corporate training rograms does Leewayzon offer?</button>
-        </div>
-        <div class="accordion-content">
-          <p>  Leewayzon offers customized corporate training programs covering technical skills,soft skills,
-            leadership development, compliance training, and cross-functional training.</p>
-        </div>
-      </div>
-    </div> -->
-
     <div class="container">
-      <!-- Content Section -->
       <div class="content">
           <h1>Frequently asked questions</h1>
           <div class="image-container">
-              <img src="https://leewayzon.com/assets/home/faq.svg" alt="Business discussion">
+              <img src="https://leewayzon.com/assets/home/faq.svg"  class="home2img">
           </div>
       </div>
-      <!-- Accordion Section -->
       <div class="accordion">
           <div class="accordion-item">
               <div class="accordion-header" onclick="toggleAccordion(this)">
                   What is RPO and how does it benefit my company?
+                  <i class="fa-solid fa-chevron-down" id="dropdown"></i>
               </div>
               <div class="accordion-content">
                   RPO stands for Recruitment Process Outsourcing, where a third-party provider manages recruitment for your company...
@@ -425,6 +325,7 @@
           <div class="accordion-item">
               <div class="accordion-header" onclick="toggleAccordion(this)">
                   What type of payroll services does Leewayzon offer?
+                  <i class="fa-solid fa-chevron-down" id="dropdown"></i>
               </div>
               <div class="accordion-content">
                   Leewayzon provides comprehensive payroll management, including salary calculations, tax deductions, and compliance...
@@ -433,6 +334,7 @@
           <div class="accordion-item">
               <div class="accordion-header" onclick="toggleAccordion(this)">
                   What is contract staffing and how does it differ from permanent hiring?
+                  <i class="fa-solid fa-chevron-down" id="dropdown"></i>
               </div>
               <div class="accordion-content">
                   Contract staffing involves hiring employees on a temporary basis, while permanent hiring is for long-term roles...
@@ -441,6 +343,7 @@
           <div class="accordion-item">
               <div class="accordion-header" onclick="toggleAccordion(this)">
                   What HR functions can Leewayzon outsource for my company?
+                  <i class="fa-solid fa-chevron-down" id="dropdown"></i>
               </div>
               <div class="accordion-content">
                   Leewayzon can outsource HR functions such as payroll management, recruitment, compliance, and training...
@@ -449,6 +352,7 @@
           <div class="accordion-item">
               <div class="accordion-header" onclick="toggleAccordion(this)">
                   What is direct placement and how does it benefit my company?
+                  <i class="fa-solid fa-chevron-down" id="dropdown"></i>
               </div>
               <div class="accordion-content">
                   Direct placement involves hiring candidates for full-time positions. It reduces recruitment efforts and ensures top talent...
@@ -457,6 +361,7 @@
           <div class="accordion-item">
               <div class="accordion-header" onclick="toggleAccordion(this)">
                   What type of corporate training programs does Leewayzon offer?
+                  <i class="fa-solid fa-chevron-down" id="dropdown"></i>
               </div>
               <div class="accordion-content">
                   Leewayzon offers customized corporate training programs focusing on skill development, leadership, and team-building...
@@ -467,12 +372,12 @@
 
 
     <div class="footer">
-      <img src="logo.svg" width="25%">
+      <img src="logo.svg" width="19%" style="padding-top:40px;">
       <div class="container">
-        <div class="box">
-          <p class="email">hr@leewayzon.com</p>
-          <span>Near Andheri Metro Station,
-            <br>Mumbai-400069</span>
+        <div class="box" id="email">
+          <p class="email" >hr@leewayzon.com</p>
+          <span1>Near Andheri Metro Station,
+            <br>Mumbai-400069</span1>
         </div>
         <div class="box">
           <p>Leewayzon</p>
@@ -487,7 +392,6 @@
           <p>Services</p>
           <ul>
             <li><a href="rpo.html">RPO</a></li>
-            <!-- <li><a href="payroll.html">Pay-roll Services</a></li> -->
             <li><a href="contract-staffing.html">Contract staffing</a></li>
             <li><a href="hr-outsourcing.html">HR outsourcing</a></li>
             <li><a href="direct-placement.html">Direct Placement</a></li>
@@ -517,19 +421,6 @@
       </div>
     </div>
   </div>
-
-    <!-- <script>
-      
-const accordionButtons = document.querySelectorAll('.accordion-button');
-
-accordionButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const content = button.closest('.accordion-item').querySelector('.accordion-content');
-    content.classList.toggle('open');
-  });
-});
-    </script> -->
-
     <script>
           function toggleAccordion(header) {
             const content = header.nextElementSibling;

@@ -22,7 +22,6 @@ function openTab(tabName) {
     }
     document.querySelector(".tab-button[data-tab='" + tabName + "']").classList.add("active");
 }
-
 var modal = document.getElementById("myModal");
 var span = document.getElementsByClassName("close")[0];
 function openmodal(){
